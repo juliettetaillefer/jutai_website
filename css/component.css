@@ -34,7 +34,15 @@ article {
 	padding-top: 2%;
 	padding-left: 15%;
 	padding-right: 15%;
+	padding-bottom: 5%;
 }
+
+.cbp-so-section h2 span {
+	font-weight: normal;
+	line-height: 1;
+	color: black;
+}
+
 .cbp-so-section a {
 	line-height: 1;
 	padding-top: 2%;
@@ -42,6 +50,7 @@ article {
 	font-size: 1em;
 	font-weight: 500;
 padding: 15%;
+text-align: right;
 
 }
 
@@ -50,13 +59,13 @@ padding: 15%;
 	font-weight: 300;
 	line-height: 1.5;
 	min-width: 300px;
+	max-width: 600px;
+	font-family: 'arial';
 	padding-left: 15%;
-	padding-top: 5%;
-	padding-right: 15%;
 }
-.cbp-so-side #soustitre p {
-	font-style: italic;
+.cbp-so-side p span {
 	font-weight: bold;
+	font-style: italic;
 }
 
 
@@ -89,15 +98,17 @@ padding: 15%;
 }
 
 .cbp-so-side-left {
-	text-align: right;
+	text-align: left;
 }
 
 .cbp-so-side-right img {
 	float: left;
+	width: 100%;
 }
 
 .cbp-so-side-left img {
 	float: right;
+	width: 100%;
 }
 
 /* Initial state (hidden or anything else) */
@@ -160,4 +171,3 @@ padding: 15%;
 	.cbp-so-side img {
 		max-width: 100%;
 	}
-}
