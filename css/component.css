@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .cbp-so-scroller {
 	margin-top: 3em;
 	overflow: hidden;
@@ -60,7 +62,7 @@ text-align: right;
 	line-height: 1.5;
 	min-width: 300px;
 	max-width: 600px;
-	font-family: 'arial';
+	font-family: 'Roboto', sans-serif;
 	padding-left: 15%;
 }
 .cbp-so-side p span {
